@@ -19,8 +19,9 @@ de múltiples línies  */
 * Funcionalitats clau
     * Una factoria de Beans central, que és usada globalment.
     * [Integració amb entorns de persistència com Hibernate.](https://ca.wikipedia.org/wiki/Hibernate)
-    * Capa genèrica d'abstracció per la gestió de transaccions de la base de dades.
+    * Capa *genèrica* d'abstracció per la gestió de transaccions de la base de dades.
 * Programa d'exemple
+
 ```Java
 class HelloWorld {
     public static void main (String args[]) 
